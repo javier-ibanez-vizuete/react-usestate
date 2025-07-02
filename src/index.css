@@ -1,8 +1,19 @@
-#root {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2rem;
+html,
+body {
+	height: 100%;
+}
 
-    background-color: #fabada;
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2rem;
+	flex: 1;
+
+	background-color: #fabada;
 }

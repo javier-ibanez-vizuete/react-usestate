@@ -1,0 +1,23 @@
+.toggle-btn-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding: 8px;
+	background-color: red;
+	width: 200px;
+}
+
+.toggle-btn {
+	background-color: lightgrey;
+}
+
+.actived-toggle-btn,
+.toggle-btn {
+	padding: 4px;
+	border-radius: 4px;
+}
+
+.actived-toggle-btn {
+	background-color: lightgoldenrodyellow;
+}
