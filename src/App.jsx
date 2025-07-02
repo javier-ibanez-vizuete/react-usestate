@@ -1,13 +1,12 @@
 import { useState } from 'react'
+import { SimpleCounter } from './components/SimpleCounter/SimpleCounter'
 
-function App() {
+export const App =() => {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1>REACT - USESTATE</h1>
+    <SimpleCounter/>
     </>
   )
 }
-
-export default App

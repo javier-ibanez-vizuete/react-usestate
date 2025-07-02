@@ -1,0 +1,21 @@
+.simple-counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+    padding: 8px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.simple-counter-container button {
+    align-self: stretch;
+
+    background-color: beige;
+}
+
+.simple-counter-container button:active {
+    background-color: blanchedalmond;
+}
