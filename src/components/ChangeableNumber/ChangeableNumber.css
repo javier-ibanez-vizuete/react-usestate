@@ -1,0 +1,14 @@
+.changeable-number-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+
+	padding: 20px;
+	border: 2px solid black;
+}
+
+.changeable-number-btns-container {
+	display: flex;
+	gap: 4px;
+}

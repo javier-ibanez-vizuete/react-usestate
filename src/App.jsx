@@ -11,14 +11,11 @@ import { ImageChanger } from "./components/ImageChanger/ImageChanger";
 import { LikeBtn } from "./components/LikeBtn/LikeBtn";
 import { ChangingText } from "./components/ChangingText/ChangingText";
 import { TemporaryMessage } from "./components/TemporaryMessage/TemporaryMessage";
+import { ChangeableNumber } from "./components/ChangeableNumber/ChangeableNumber";
 
 export const App = () => {
-	const [count, setCount] = useState(0);
-
 	return (
 		<>
-			<TemporaryMessage />
-			<ChangingText text={"Bienvenidos a los pilares de la tierra perdida"} />
 			<SimpleCounter />
 			<ToggleButton />
 			<TextBox />
@@ -31,6 +28,9 @@ export const App = () => {
 			<CheckBox />
 			<ImageChanger />
 			<LikeBtn />
+			<ChangingText text={"Bienvenidos a los pilares de la tierra perdida"} />
+			<TemporaryMessage />
+			<ChangeableNumber originalNumber={7} />
 		</>
 	);
 };
