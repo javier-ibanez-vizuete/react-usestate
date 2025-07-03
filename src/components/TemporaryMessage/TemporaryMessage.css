@@ -1,0 +1,8 @@
+.temporary-message-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+    border: 4px solid purple;
+}

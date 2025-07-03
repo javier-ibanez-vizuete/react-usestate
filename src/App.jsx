@@ -10,12 +10,14 @@ import { CheckBox } from "./components/CheckBox/CheckBox";
 import { ImageChanger } from "./components/ImageChanger/ImageChanger";
 import { LikeBtn } from "./components/LikeBtn/LikeBtn";
 import { ChangingText } from "./components/ChangingText/ChangingText";
+import { TemporaryMessage } from "./components/TemporaryMessage/TemporaryMessage";
 
 export const App = () => {
 	const [count, setCount] = useState(0);
 
 	return (
 		<>
+			<TemporaryMessage />
 			<ChangingText text={"Bienvenidos a los pilares de la tierra perdida"} />
 			<SimpleCounter />
 			<ToggleButton />
