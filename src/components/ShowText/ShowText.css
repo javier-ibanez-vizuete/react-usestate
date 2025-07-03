@@ -1,0 +1,8 @@
+.show-text-container {
+	display: flex;
+	flex-direction: column;
+
+	padding: 8px;
+	border: 10px solid red;
+	min-width: 200px;
+}

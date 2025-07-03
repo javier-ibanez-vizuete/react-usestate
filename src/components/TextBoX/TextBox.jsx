@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./TextBox.css";
 
 export const TextBox = () => {
-	const [texto, setTexto] = useState("Placeholder");
+	const [text, setText] = useState("Placeholder");
 
 	return (
 		<div className="textbox-container">
@@ -12,10 +12,10 @@ export const TextBox = () => {
 				id="input-textbox"
                 placeholder="Escribe lo que quieras"
 				onChange={(event) => {
-					setTexto(event.target.value);
+					setText(event.target.value);
 				}}
 			/>
-			<p>{texto}</p>
+			<p>{text}</p>
 		</div>
 	);
 };
