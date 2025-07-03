@@ -8,6 +8,7 @@ import { TaskList } from "./components/TaskList/TaskList";
 import { FakeNavigation } from "./components/FakeNavigation/FakeNavigation";
 import { CheckBox } from "./components/CheckBox/CheckBox";
 import { ImageChanger } from "./components/ImageChanger/ImageChanger";
+import { LikeBtn } from "./components/LikeBtn/LikeBtn";
 
 export const App = () => {
 	const [count, setCount] = useState(0);
@@ -25,6 +26,7 @@ export const App = () => {
 			<FakeNavigation btnName={"ajustes"} textContent={"Boton ajustes"} />
 			<CheckBox />
 			<ImageChanger />
+			<LikeBtn />
 		</>
 	);
 };
