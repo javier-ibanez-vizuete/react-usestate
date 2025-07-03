@@ -7,6 +7,7 @@ import { ColoredBtn } from "./components/ColoredBtn/ColoredBtn";
 import { TaskList } from "./components/TaskList/TaskList";
 import { FakeNavigation } from "./components/FakeNavigation/FakeNavigation";
 import { CheckBox } from "./components/CheckBox/CheckBox";
+import { ImageChanger } from "./components/ImageChanger/ImageChanger";
 
 export const App = () => {
 	const [count, setCount] = useState(0);
@@ -23,6 +24,7 @@ export const App = () => {
 			<FakeNavigation btnName={"Perfil"} textContent={"Texto de Perfil"} />
 			<FakeNavigation btnName={"ajustes"} textContent={"Boton ajustes"} />
 			<CheckBox />
+			<ImageChanger />
 		</>
 	);
 };
