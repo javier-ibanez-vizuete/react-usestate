@@ -1,0 +1,13 @@
+.colored-btn,
+.actived-colored-btn {
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.colored-btn {
+	background-color: azure;
+}
+
+.actived-colored-btn {
+	background-color: aquamarine;
+}
